@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Simple page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <header class="home" id="home">
+            <nav class="nav-bar" id="nav-bar">
+                <div class="nav-bar-links">
+                    <a href="#about">ABOUT</a>
+                    <a href="#portfolio">PORTFOLIO</a>
+                    <a href="#contacts">CONTACTS</a>
+                    <a href="#home"><b>HOME</b></a>
+                </div>
+                <h1 class="nav-bar-h1">Leo Awiti, <br> Front-end <br>developer</h1>
+            </nav>
+        </header>
+        <main>
+            <section id="about">
+                <h2>About me</h2>
+                <div class="about-me">
+                    <div class="about">
+                        <img src="leo.JPG" alt="Leo's picture">
+                    </div>
+                    <div class="about-text">
+                        <p>Hello, I am Leo Awiti. I have been learning front-end developer course with JetBrains for the last 5 months.</p>
+                        <p>I am a passionate programmer. Before learning front-end developer course, I had done Python, Java and JavaScript</p>
+                        <p>Programming is a big hobby of mine. Though soon I hope to programme professionally</p>
+                        <p><b>Skills</b> Python, Java, JavaScript, CSS, HTML, Django, React</p>
+                    </div>
+                </div>
+         </section>
+            <section id="portfolio">
+                <h2>Portfolio</h2>
+                <div class="portfolio">
+                    <div class="portfolio-resume cards">
+                        <img src="resume.jpg" alt="HR Resume Filing">
+                        <p>HR Resume</p>
+                        <button class="open-window" type="button">HR Resume</button>
+                    </div>
+                    <div class="portfolio-flashcards cards">
+                        <img src="project1.png" alt="Flashcards">
+                        <p>Flashcards</p>
+                        <button class="open-window" type="button">Flashcards</button>
+                    </div>
+                    <div class="portfolio-virtual-piano cards">
+                        <img src="project2.png" alt="Virtual Piano">
+                        <p>Virtual Piano</p>
+                        <button class="open-window" type="button">Virtual Piano</button>
+                    </div>
+                </div>
+            </section>
+            <div class="window" id="window">
+                <div class="window-content">
+                    <span class="close" id="close">&times;</span>
+                    <p id="portfolio-HR-Resume">Details about HR Resume project and related experience</p>
+                    <p id="portfolio-Flashcards">Details about HR Resume project and related experience</p>
+                    <p id="portfolio-Virtual-Piano">Details about HR Resume project and related experience</p>
+                    <button class="close-window open-window" type="button">Close</button>
+                </div>
+            </div>
+            <section>
+                <h2 class="contact">Contacts</h2>
+            </section>
+           <footer id="contacts">
+                <p><b>Tel:  </b>+254 722 000 000</p>
+                <p><b>Email:  </b>leo@awiti.com</p>
+                <p><b>Address:  </b>ParkLands 40West Street</p>
+            </footer>
+        </main>
+    </body>
+</html>
